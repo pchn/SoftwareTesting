@@ -45,14 +45,14 @@ public class Ex1 {
     @Test
     public void userLoginTest() {
         /* 3) Perform login */
-        webDriver.findElement(By.xpath("//*[@id=\"user-icon\"]")).click();
-        webDriver.findElement(By.xpath("//*[@id=\"name\"]")).sendKeys("Roman");
-        webDriver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Jdi1234");
-        webDriver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
+        webDriver.findElement(By.xpath("//*[@id='user-icon']")).click();
+        webDriver.findElement(By.xpath("//*[@id='name']")).sendKeys("Roman");
+        webDriver.findElement(By.xpath("//*[@id='password']")).sendKeys("Jdi1234");
+        webDriver.findElement(By.xpath("//*[@id='login-button']")).click();
 
 
         /* 4) Assert User name in the left-top side of screen that user is loggined */
-        String curUsername = webDriver.findElement(By.xpath("//*[@id=\"user-name\"]")).getAttribute("innerHTML");
+        String curUsername = webDriver.findElement(By.xpath("//*[@id='user-name']")).getAttribute("innerHTML");
         Assert.assertEquals(curUsername, "Roman Iovlev");
 
         /* 5) Assert Browser title */
@@ -64,7 +64,7 @@ public class Ex1 {
         /* 6) Assert that there are 4 items on the header section are displayed and they have proper texts */
         List<WebElement> headerElements = webDriver.findElements(By.xpath("//*[starts-with(@class,'uui-header')]/nav/ul[1]/li/a"));
 
-        Assert.assertTrue(headerElements.size() == 4);
+        Assert.assertEquals(headerElements.size(), 4);
 
         for(WebElement we : headerElements) {
             Assert.assertTrue(we.isDisplayed());
@@ -83,7 +83,7 @@ public class Ex1 {
         /* 7) Assert that there are 4 images on the Index Page and they are displayed */
         List<WebElement> indexPageImages = webDriver.findElements(By.xpath("//*[@class='benefit-icon']"));
 
-        Assert.assertTrue(indexPageImages.size() == 4);
+        Assert.assertEquals(indexPageImages.size(), 4);
 
         for(WebElement we : indexPageImages) {
             Assert.assertTrue(we.isDisplayed());
@@ -92,7 +92,7 @@ public class Ex1 {
         /* 8) Assert that there are 4 texts on the Index Page under icons and they have proper text */
         List<WebElement> indexPageCaptions = webDriver.findElements(By.xpath("//*[@class='benefit-txt']"));
 
-        Assert.assertTrue(indexPageCaptions.size() == 4);
+        Assert.assertEquals(indexPageCaptions.size(), 4);
 
         String[] indexPageCaptionsExpectedTexts = {"To include good practices\nand ideas from successful\nEPAM project",
                                                     "To be flexible and\ncustomizable",
