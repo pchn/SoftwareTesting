@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SumSubSuite" class="navigator-link">
+              <span class="suite-name border-failed">SumSubSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SumSubSuite" class="navigator-link ">
+                    <span>C:\Users\nikit\IdeaProjects\Software-testing\hw1\testSuites\global_testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SumSubSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SumSubSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SumSubSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SumSubSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SumSubSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SumSubSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">45 methods, 4 failed,   41 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SumSubSuite" class="hide-methods failed suite-SumSubSuite"> (hide)</a> <!-- hide-methods failed suite-SumSubSuite -->
+                      <a href="#" panel-name="suite-SumSubSuite" class="show-methods failed suite-SumSubSuite"> (show)</a> <!-- show-methods failed suite-SumSubSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SumSubSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestDouble(42.42 1, 42.42)">mulTestDouble(42.42 1, 42.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestDouble(1 42.42, 42.42)">mulTestDouble(1 42.42, 42.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestDouble(12.21 21.12, 257.8752)">mulTestDouble(12.21 21.12, 257.8752)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestDouble(-42.42 42.42, -1799.4564)">mulTestDouble(-42.42 42.42, -1799.4564)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SumSubSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SumSubSuite" class="hide-methods passed suite-SumSubSuite"> (hide)</a> <!-- hide-methods passed suite-SumSubSuite -->
+                      <a href="#" panel-name="suite-SumSubSuite" class="show-methods passed suite-SumSubSuite"> (show)</a> <!-- show-methods passed suite-SumSubSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SumSubSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestDouble(0.0 42.42, 0.0)">divTestDouble(0.0 42.42, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestDouble(-42.42 42.42, -1.0)">divTestDouble(-42.42 42.42, -1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestDouble(42.42 -42.42, -1.0)">divTestDouble(42.42 -42.42, -1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestDouble(42.42 -1, -42.42)">divTestDouble(42.42 -1, -42.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestDouble(21.12 0.5, 42.24)">divTestDouble(21.12 0.5, 42.24)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestDouble(42.42 1, 42.42)">divTestDouble(42.42 1, 42.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestLong(123123123 1, 123123123)">divTestLong(123123123 1, 123123123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestLong(0 321321, 0)">divTestLong(0 321321, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestLong(123123123 -1, -123123123)">divTestLong(123123123 -1, -123123123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestLong(1234567890 1234567890, 1)">divTestLong(1234567890 1234567890, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.DivTests" class="method navigator-link" hash-for-method="divTestLong(-123456789 123456789, -1)">divTestLong(-123456789 123456789, -1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestDouble(0.0 0.0, 0.0)">mulTestDouble(0.0 0.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestDouble(42.42 0.0, 0.0)">mulTestDouble(42.42 0.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestDouble(0.0 42.42, 0.0)">mulTestDouble(0.0 42.42, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestLong(0 321321, 0)">mulTestLong(0 321321, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestLong(123123 0, 0)">mulTestLong(123123 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestLong(0 0, 0)">mulTestLong(0 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestLong(123456 987654, 121931812224)">mulTestLong(123456 987654, 121931812224)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestLong(1 123123, 123123)">mulTestLong(1 123123, 123123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestLong(123123 1, 123123)">mulTestLong(123123 1, 123123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.MulTests" class="method navigator-link" hash-for-method="mulTestLong(-123456789 123456789, -15241578750190521)">mulTestLong(-123456789 123456789, -15241578750190521)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestDouble(42.42 42.42, 0.0)">subTestDouble(42.42 42.42, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestDouble(42.42 0.0, 42.42)">subTestDouble(42.42 0.0, 42.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestDouble(0.0 42.42, -42.42)">subTestDouble(0.0 42.42, -42.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestDouble(12.21 21.12, -8.91)">subTestDouble(12.21 21.12, -8.91)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestDouble(0.0 0.0, 0.0)">subTestDouble(0.0 0.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestLong(123123 0, 123123)">subTestLong(123123 0, 123123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestLong(9876543210 1234567890, 8641975320)">subTestLong(9876543210 1234567890, 8641975320)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestLong(123456789 123456789, 0)">subTestLong(123456789 123456789, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestLong(0 321321, -321321)">subTestLong(0 321321, -321321)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SubTests" class="method navigator-link" hash-for-method="subTestLong(0 0, 0)">subTestLong(0 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestDouble(12.21 21.12, 33.33)">sumTestDouble(12.21 21.12, 33.33)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestDouble(0.0 0.0, 0.0)">sumTestDouble(0.0 0.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestDouble(-42.42 42.42, 0.0)">sumTestDouble(-42.42 42.42, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestDouble(42.42 0.0, 42.42)">sumTestDouble(42.42 0.0, 42.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestDouble(0.0 42.42, 42.42)">sumTestDouble(0.0 42.42, 42.42)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestLong(-123456789 123456789, 0)">sumTestLong(-123456789 123456789, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestLong(123123 0, 123123)">sumTestLong(123123 0, 123123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestLong(1234567890 9876543210, 11111111100)">sumTestLong(1234567890 9876543210, 11111111100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestLong(0 0, 0)">sumTestLong(0 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SumSubSuite" title="hw1.SumTests" class="method navigator-link" hash-for-method="sumTestLong(0 321321, 321321)">sumTestLong(0 321321, 321321)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SumSubSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SumSubSuite" class="panel SumSubSuite">
+          <div class="suite-SumSubSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">hw1.MulTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestDouble(42.42 1, 42.42)">
+                  </a> <!-- mulTestDouble(42.42 1, 42.42) -->
+                  <span class="method-name">mulTestDouble</span>
+                  <span class="parameters">(42.42 1, 42.42)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [42.0] but found [42.42]
+	at hw1.MulTests.mulTestDouble(MulTests.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestDouble(1 42.42, 42.42)">
+                  </a> <!-- mulTestDouble(1 42.42, 42.42) -->
+                  <span class="method-name">mulTestDouble</span>
+                  <span class="parameters">(1 42.42, 42.42)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [42.0] but found [42.42]
+	at hw1.MulTests.mulTestDouble(MulTests.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestDouble(12.21 21.12, 257.8752)">
+                  </a> <!-- mulTestDouble(12.21 21.12, 257.8752) -->
+                  <span class="method-name">mulTestDouble</span>
+                  <span class="parameters">(12.21 21.12, 257.8752)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [257.0] but found [257.8752]
+	at hw1.MulTests.mulTestDouble(MulTests.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestDouble(-42.42 42.42, -1799.4564)">
+                  </a> <!-- mulTestDouble(-42.42 42.42, -1799.4564) -->
+                  <span class="method-name">mulTestDouble</span>
+                  <span class="parameters">(-42.42 42.42, -1799.4564)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [-1800.0] but found [-1799.4564]
+	at hw1.MulTests.mulTestDouble(MulTests.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SumSubSuite-class-failed -->
+          <div class="suite-SumSubSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hw1.DivTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestDouble(0.0 42.42, 0.0)">
+                  </a> <!-- divTestDouble(0.0 42.42, 0.0) -->
+                  <span class="method-name">divTestDouble</span>
+                  <span class="parameters">(0.0 42.42, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestDouble(-42.42 42.42, -1.0)">
+                  </a> <!-- divTestDouble(-42.42 42.42, -1.0) -->
+                  <span class="method-name">divTestDouble</span>
+                  <span class="parameters">(-42.42 42.42, -1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestDouble(42.42 -42.42, -1.0)">
+                  </a> <!-- divTestDouble(42.42 -42.42, -1.0) -->
+                  <span class="method-name">divTestDouble</span>
+                  <span class="parameters">(42.42 -42.42, -1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestDouble(42.42 -1, -42.42)">
+                  </a> <!-- divTestDouble(42.42 -1, -42.42) -->
+                  <span class="method-name">divTestDouble</span>
+                  <span class="parameters">(42.42 -1, -42.42)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestDouble(21.12 0.5, 42.24)">
+                  </a> <!-- divTestDouble(21.12 0.5, 42.24) -->
+                  <span class="method-name">divTestDouble</span>
+                  <span class="parameters">(21.12 0.5, 42.24)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestDouble(42.42 1, 42.42)">
+                  </a> <!-- divTestDouble(42.42 1, 42.42) -->
+                  <span class="method-name">divTestDouble</span>
+                  <span class="parameters">(42.42 1, 42.42)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestLong(123123123 1, 123123123)">
+                  </a> <!-- divTestLong(123123123 1, 123123123) -->
+                  <span class="method-name">divTestLong</span>
+                  <span class="parameters">(123123123 1, 123123123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestLong(0 321321, 0)">
+                  </a> <!-- divTestLong(0 321321, 0) -->
+                  <span class="method-name">divTestLong</span>
+                  <span class="parameters">(0 321321, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestLong(123123123 -1, -123123123)">
+                  </a> <!-- divTestLong(123123123 -1, -123123123) -->
+                  <span class="method-name">divTestLong</span>
+                  <span class="parameters">(123123123 -1, -123123123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestLong(1234567890 1234567890, 1)">
+                  </a> <!-- divTestLong(1234567890 1234567890, 1) -->
+                  <span class="method-name">divTestLong</span>
+                  <span class="parameters">(1234567890 1234567890, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTestLong(-123456789 123456789, -1)">
+                  </a> <!-- divTestLong(-123456789 123456789, -1) -->
+                  <span class="method-name">divTestLong</span>
+                  <span class="parameters">(-123456789 123456789, -1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SumSubSuite-class-passed -->
+          <div class="suite-SumSubSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hw1.SumTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestDouble(12.21 21.12, 33.33)">
+                  </a> <!-- sumTestDouble(12.21 21.12, 33.33) -->
+                  <span class="method-name">sumTestDouble</span>
+                  <span class="parameters">(12.21 21.12, 33.33)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestDouble(0.0 0.0, 0.0)">
+                  </a> <!-- sumTestDouble(0.0 0.0, 0.0) -->
+                  <span class="method-name">sumTestDouble</span>
+                  <span class="parameters">(0.0 0.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestDouble(-42.42 42.42, 0.0)">
+                  </a> <!-- sumTestDouble(-42.42 42.42, 0.0) -->
+                  <span class="method-name">sumTestDouble</span>
+                  <span class="parameters">(-42.42 42.42, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestDouble(42.42 0.0, 42.42)">
+                  </a> <!-- sumTestDouble(42.42 0.0, 42.42) -->
+                  <span class="method-name">sumTestDouble</span>
+                  <span class="parameters">(42.42 0.0, 42.42)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestDouble(0.0 42.42, 42.42)">
+                  </a> <!-- sumTestDouble(0.0 42.42, 42.42) -->
+                  <span class="method-name">sumTestDouble</span>
+                  <span class="parameters">(0.0 42.42, 42.42)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestLong(-123456789 123456789, 0)">
+                  </a> <!-- sumTestLong(-123456789 123456789, 0) -->
+                  <span class="method-name">sumTestLong</span>
+                  <span class="parameters">(-123456789 123456789, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestLong(123123 0, 123123)">
+                  </a> <!-- sumTestLong(123123 0, 123123) -->
+                  <span class="method-name">sumTestLong</span>
+                  <span class="parameters">(123123 0, 123123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestLong(1234567890 9876543210, 11111111100)">
+                  </a> <!-- sumTestLong(1234567890 9876543210, 11111111100) -->
+                  <span class="method-name">sumTestLong</span>
+                  <span class="parameters">(1234567890 9876543210, 11111111100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestLong(0 0, 0)">
+                  </a> <!-- sumTestLong(0 0, 0) -->
+                  <span class="method-name">sumTestLong</span>
+                  <span class="parameters">(0 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTestLong(0 321321, 321321)">
+                  </a> <!-- sumTestLong(0 321321, 321321) -->
+                  <span class="method-name">sumTestLong</span>
+                  <span class="parameters">(0 321321, 321321)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SumSubSuite-class-passed -->
+          <div class="suite-SumSubSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hw1.SubTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestDouble(42.42 42.42, 0.0)">
+                  </a> <!-- subTestDouble(42.42 42.42, 0.0) -->
+                  <span class="method-name">subTestDouble</span>
+                  <span class="parameters">(42.42 42.42, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestDouble(42.42 0.0, 42.42)">
+                  </a> <!-- subTestDouble(42.42 0.0, 42.42) -->
+                  <span class="method-name">subTestDouble</span>
+                  <span class="parameters">(42.42 0.0, 42.42)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestDouble(0.0 42.42, -42.42)">
+                  </a> <!-- subTestDouble(0.0 42.42, -42.42) -->
+                  <span class="method-name">subTestDouble</span>
+                  <span class="parameters">(0.0 42.42, -42.42)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestDouble(12.21 21.12, -8.91)">
+                  </a> <!-- subTestDouble(12.21 21.12, -8.91) -->
+                  <span class="method-name">subTestDouble</span>
+                  <span class="parameters">(12.21 21.12, -8.91)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestDouble(0.0 0.0, 0.0)">
+                  </a> <!-- subTestDouble(0.0 0.0, 0.0) -->
+                  <span class="method-name">subTestDouble</span>
+                  <span class="parameters">(0.0 0.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestLong(123123 0, 123123)">
+                  </a> <!-- subTestLong(123123 0, 123123) -->
+                  <span class="method-name">subTestLong</span>
+                  <span class="parameters">(123123 0, 123123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestLong(9876543210 1234567890, 8641975320)">
+                  </a> <!-- subTestLong(9876543210 1234567890, 8641975320) -->
+                  <span class="method-name">subTestLong</span>
+                  <span class="parameters">(9876543210 1234567890, 8641975320)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestLong(123456789 123456789, 0)">
+                  </a> <!-- subTestLong(123456789 123456789, 0) -->
+                  <span class="method-name">subTestLong</span>
+                  <span class="parameters">(123456789 123456789, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestLong(0 321321, -321321)">
+                  </a> <!-- subTestLong(0 321321, -321321) -->
+                  <span class="method-name">subTestLong</span>
+                  <span class="parameters">(0 321321, -321321)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTestLong(0 0, 0)">
+                  </a> <!-- subTestLong(0 0, 0) -->
+                  <span class="method-name">subTestLong</span>
+                  <span class="parameters">(0 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SumSubSuite-class-passed -->
+          <div class="suite-SumSubSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hw1.MulTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestDouble(0.0 0.0, 0.0)">
+                  </a> <!-- mulTestDouble(0.0 0.0, 0.0) -->
+                  <span class="method-name">mulTestDouble</span>
+                  <span class="parameters">(0.0 0.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestDouble(42.42 0.0, 0.0)">
+                  </a> <!-- mulTestDouble(42.42 0.0, 0.0) -->
+                  <span class="method-name">mulTestDouble</span>
+                  <span class="parameters">(42.42 0.0, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestDouble(0.0 42.42, 0.0)">
+                  </a> <!-- mulTestDouble(0.0 42.42, 0.0) -->
+                  <span class="method-name">mulTestDouble</span>
+                  <span class="parameters">(0.0 42.42, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestLong(0 321321, 0)">
+                  </a> <!-- mulTestLong(0 321321, 0) -->
+                  <span class="method-name">mulTestLong</span>
+                  <span class="parameters">(0 321321, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestLong(123123 0, 0)">
+                  </a> <!-- mulTestLong(123123 0, 0) -->
+                  <span class="method-name">mulTestLong</span>
+                  <span class="parameters">(123123 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestLong(0 0, 0)">
+                  </a> <!-- mulTestLong(0 0, 0) -->
+                  <span class="method-name">mulTestLong</span>
+                  <span class="parameters">(0 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestLong(123456 987654, 121931812224)">
+                  </a> <!-- mulTestLong(123456 987654, 121931812224) -->
+                  <span class="method-name">mulTestLong</span>
+                  <span class="parameters">(123456 987654, 121931812224)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestLong(1 123123, 123123)">
+                  </a> <!-- mulTestLong(1 123123, 123123) -->
+                  <span class="method-name">mulTestLong</span>
+                  <span class="parameters">(1 123123, 123123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestLong(123123 1, 123123)">
+                  </a> <!-- mulTestLong(123123 1, 123123) -->
+                  <span class="method-name">mulTestLong</span>
+                  <span class="parameters">(123123 1, 123123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulTestLong(-123456789 123456789, -15241578750190521)">
+                  </a> <!-- mulTestLong(-123456789 123456789, -15241578750190521) -->
+                  <span class="method-name">mulTestLong</span>
+                  <span class="parameters">(-123456789 123456789, -15241578750190521)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SumSubSuite-class-passed -->
+        </div> <!-- panel SumSubSuite -->
+        <div panel-name="test-xml-SumSubSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nikit\IdeaProjects\Software-testing\hw1\testSuites\global_testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SumSubSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Functional&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;hw1.SumTests&quot;/&gt;
+      &lt;class name=&quot;hw1.SubTests&quot;/&gt;
+      &lt;class name=&quot;hw1.MulTests&quot;/&gt;
+      &lt;class name=&quot;hw1.DivTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Functional --&gt;
+&lt;/suite&gt; &lt;!-- SumSubSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SumSubSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SumSubSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Functional (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SumSubSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SumSubSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SumSubSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SumSubSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SumSubSuite');
+function tableData_SumSubSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(45);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'subTestLong')
+data.setCell(0, 2, 'hw1.SubTests')
+data.setCell(0, 3, 7);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sumTestDouble')
+data.setCell(1, 2, 'hw1.SumTests')
+data.setCell(1, 3, 5);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'sumTestDouble')
+data.setCell(2, 2, 'hw1.SumTests')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'mulTestDouble')
+data.setCell(3, 2, 'hw1.MulTests')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'mulTestDouble')
+data.setCell(4, 2, 'hw1.MulTests')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'subTestDouble')
+data.setCell(5, 2, 'hw1.SubTests')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'divTestLong')
+data.setCell(6, 2, 'hw1.DivTests')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sumTestLong')
+data.setCell(7, 2, 'hw1.SumTests')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sumTestLong')
+data.setCell(8, 2, 'hw1.SumTests')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'subTestDouble')
+data.setCell(9, 2, 'hw1.SubTests')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'sumTestLong')
+data.setCell(10, 2, 'hw1.SumTests')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'mulTestDouble')
+data.setCell(11, 2, 'hw1.MulTests')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'divTestDouble')
+data.setCell(12, 2, 'hw1.DivTests')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'divTestLong')
+data.setCell(13, 2, 'hw1.DivTests')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'mulTestLong')
+data.setCell(14, 2, 'hw1.MulTests')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'sumTestDouble')
+data.setCell(15, 2, 'hw1.SumTests')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'divTestLong')
+data.setCell(16, 2, 'hw1.DivTests')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'subTestDouble')
+data.setCell(17, 2, 'hw1.SubTests')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'subTestDouble')
+data.setCell(18, 2, 'hw1.SubTests')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'mulTestLong')
+data.setCell(19, 2, 'hw1.MulTests')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'subTestLong')
+data.setCell(20, 2, 'hw1.SubTests')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'mulTestLong')
+data.setCell(21, 2, 'hw1.MulTests')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'mulTestDouble')
+data.setCell(22, 2, 'hw1.MulTests')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'mulTestDouble')
+data.setCell(23, 2, 'hw1.MulTests')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'divTestDouble')
+data.setCell(24, 2, 'hw1.DivTests')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'divTestDouble')
+data.setCell(25, 2, 'hw1.DivTests')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'subTestDouble')
+data.setCell(26, 2, 'hw1.SubTests')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'mulTestLong')
+data.setCell(27, 2, 'hw1.MulTests')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'mulTestLong')
+data.setCell(28, 2, 'hw1.MulTests')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'subTestLong')
+data.setCell(29, 2, 'hw1.SubTests')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'divTestDouble')
+data.setCell(30, 2, 'hw1.DivTests')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'sumTestLong')
+data.setCell(31, 2, 'hw1.SumTests')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'divTestDouble')
+data.setCell(32, 2, 'hw1.DivTests')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'sumTestDouble')
+data.setCell(33, 2, 'hw1.SumTests')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'mulTestLong')
+data.setCell(34, 2, 'hw1.MulTests')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'divTestLong')
+data.setCell(35, 2, 'hw1.DivTests')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'mulTestDouble')
+data.setCell(36, 2, 'hw1.MulTests')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'subTestLong')
+data.setCell(37, 2, 'hw1.SubTests')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'sumTestDouble')
+data.setCell(38, 2, 'hw1.SumTests')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'divTestLong')
+data.setCell(39, 2, 'hw1.DivTests')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'sumTestLong')
+data.setCell(40, 2, 'hw1.SumTests')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'mulTestLong')
+data.setCell(41, 2, 'hw1.MulTests')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'divTestDouble')
+data.setCell(42, 2, 'hw1.DivTests')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'subTestLong')
+data.setCell(43, 2, 'hw1.SubTests')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'mulTestDouble')
+data.setCell(44, 2, 'hw1.MulTests')
+data.setCell(44, 3, 0);
+window.suiteTableData['SumSubSuite']= { tableData: data, tableDiv: 'times-div-SumSubSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 ms</span>
+              <div id="times-div-SumSubSuite">
+              </div> <!-- times-div-SumSubSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SumSubSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SumSubSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SumSubSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SumSubSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">hw1.SumTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sumTestDouble(12.21 21.12, 33.33)</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTestDouble(42.42 0.0, 42.42)</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTestDouble(0.0 42.42, 42.42)</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTestDouble(0.0 0.0, 0.0)</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTestDouble(-42.42 42.42, 0.0)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTestLong(1234567890 9876543210, 11111111100)</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTestLong(123123 0, 123123)</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTestLong(0 321321, 321321)</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTestLong(0 0, 0)</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTestLong(-123456789 123456789, 0)</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">hw1.SubTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTestDouble(12.21 21.12, -8.91)</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTestDouble(42.42 0.0, 42.42)</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTestDouble(0.0 42.42, -42.42)</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTestDouble(0.0 0.0, 0.0)</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTestDouble(42.42 42.42, 0.0)</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTestLong(9876543210 1234567890, 8641975320)</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTestLong(0 321321, -321321)</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTestLong(123123 0, 123123)</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTestLong(0 0, 0)</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTestLong(123456789 123456789, 0)</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">hw1.MulTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mulTestDouble(12.21 21.12, 257.8752)</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestDouble(42.42 0.0, 0.0)</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestDouble(0.0 42.42, 0.0)</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestDouble(0.0 0.0, 0.0)</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mulTestDouble(-42.42 42.42, -1799.4564)</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mulTestDouble(42.42 1, 42.42)</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mulTestDouble(1 42.42, 42.42)</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestLong(123456 987654, 121931812224)</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestLong(123123 0, 0)</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestLong(0 321321, 0)</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestLong(0 0, 0)</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestLong(-123456789 123456789, -15241578750190521)</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestLong(1 123123, 123123)</span>
+                <span class="method-start">126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulTestLong(123123 1, 123123)</span>
+                <span class="method-start">126 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">hw1.DivTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">divTestDouble(21.12 0.5, 42.24)</span>
+                <span class="method-start">129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestDouble(0.0 42.42, 0.0)</span>
+                <span class="method-start">130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestDouble(-42.42 42.42, -1.0)</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestDouble(42.42 -42.42, -1.0)</span>
+                <span class="method-start">132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestDouble(42.42 1, 42.42)</span>
+                <span class="method-start">134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestDouble(42.42 -1, -42.42)</span>
+                <span class="method-start">135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestLong(1234567890 1234567890, 1)</span>
+                <span class="method-start">136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestLong(0 321321, 0)</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestLong(-123456789 123456789, -1)</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestLong(123123123 1, 123123123)</span>
+                <span class="method-start">139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTestLong(123123123 -1, -123123123)</span>
+                <span class="method-start">141 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
