@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainPageElements {
+public class IndexPageElements {
     @FindBy(xpath = "//*[@id='user-icon']")
     WebElement userIcon;
     @FindBy(xpath = "//*[@id='name']")
@@ -36,7 +36,7 @@ public class MainPageElements {
     List<WebElement> logo;
 
 
-    public MainPageElements(WebDriver driver) {
+    public IndexPageElements(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
@@ -77,23 +77,5 @@ public class MainPageElements {
 
     public List<WebElement> getTextList() {
         return textList;
-    }
-
-    public WebElement getTitleMenu() {
-        return titleMenu;
-    }
-
-    public WebElement getSubTitleMenu() {
-        return subTitleMenu;
-    }
-
-    public ArrayList<String> getTitleMenuElements() {
-        ArrayList<String> serviceMenu = new ArrayList<>();
-        for (int i = 0; i < 9; i++) {
-            String text = String.format("//*[@id=\"mCSB_1_container\"]/ul/li[3]/ul/li[%d]", i + 1);
-            WebElement support = subTitleMenu.findElement(By.xpath(text));
-            serviceMenu.add(support.getText());
-        }
-        return serviceMenu;
     }
 }
