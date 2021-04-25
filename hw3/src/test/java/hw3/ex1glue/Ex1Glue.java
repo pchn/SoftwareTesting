@@ -1,4 +1,4 @@
-/*package hw3.ex1glue;
+package hw3.ex1glue;
 
 import hw3.pageElements.CommonElements;
 import hw3.pageElements.IndexPageElements;
@@ -162,4 +162,4 @@ public class Ex1Glue {
     public void footerTest() {
         Assert.assertTrue(indexPage.getFooter().isDisplayed());
     }
-}*/
+}

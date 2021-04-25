@@ -63,10 +63,6 @@ public class CommonElements {
         return differentElementsPage;
     }
 
-    public List<WebElement> getHeaderElements() {
-        return headerElementsList;
-    }
-
     public ArrayList<String> getHeaderElementsTitles() {
         ArrayList<String> titles = new ArrayList<>();
         for(WebElement we : headerElementsList)
