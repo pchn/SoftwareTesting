@@ -1,8 +1,0 @@
-#INtelliJ IDEA files
-.idea/
-
-#Output
-target/
-
-#iml files
-*.iml
